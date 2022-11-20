@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+  }
+  .hidden {
+    display: none;
+  }
+  
+  .wrapper {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+    /* background: url("./images/slide1300250.jpg"); */
+    /* background: url("./images/slide2300250.jpg"); */
+    /* background: url("./images/slide3300250.jpg"); */
+  }
+  .background {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    top: 0;
+    left: 0;
+  }
+  .element1 {
+    position: absolute;
+    width: 82px;
+    height: 29px;
+    top: 223px;
+    left: 115px;
+    scale: .8;
+  }
+  .element2 {
+    position: absolute;
+    width: 23px;
+    height: 33px;
+    top: 38px;
+    left: 140px;
+    z-index: 111;
+  }
+  .element3 {
+    position: absolute;
+    width: 194px;
+    height: 195px;
+    top: 31px;
+    left: 50px;
+  }
+  .element4 {
+    position: absolute;
+    width: 374px;
+    height: 374px;
+    top: -57px;
+    left: -35px;
+    scale: .5;
+    transition: transform 5s cubic-bezier(0.5, 0.1, 0.15, 1);
+    transform: rotate(0deg);
+    z-index: 99;
+  }
+  .element5 {
+    position: absolute;
+    width: 166px;
+    height: 27px;
+    top: 8px;
+    left: 67px;
+  }
+  .slideimg {
+    position: absolute;
+    width: 284px;
+    height: 167px;
+    top: 44px;
+    left: 7px;
+    z-index: 999;
+  }
+  .pluse{
+    animation-name: pluse;
+    animation-duration: .7s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+@keyframes pluse{
+    0%,100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(.90);
+    }
+}
+  .logo {
+    position: absolute;
+    width: 82px;
+    height: 34px;
+    top: 8px;
+    left: 202px;
+  }
+  .element6 {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    top: 0;
+    left: 0;
+  }
+  .element7 {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    top: 227px;
+    left: 249px;
+  }
+  .element8 {
+    position: absolute;
+    width: 109px;
+    height: 90px;
+    top: 109px;
+    left: 169px;
+  }
+  .element9 {
+    position: absolute;
+    width: 88px;
+    height: 20px;
+    top: 205px;
+    left: 181px;
+  }
+  .element10 {
+    position: absolute;
+    width: 154px;
+    height: 91px;
+    top: 20px;
+    left: 139px;
+  }
+  .element11 {
+    position: absolute;
+    width: 193px;
+    height: 225px;
+    top: 25px;
+    left: 0px;
+    overflow: hidden;
+  }
+  @keyframes fadeInZoom {
+    from {
+        opacity: 0;
+        transform: scale3d(1.3, 1.3, 1.3);
+    }
+    
+}
+.fadeInZoom {
+	animation-name:fadeInZoom ;
+    animation-duration: .8s;
+    animation-timing-function: ease-in;
+}
